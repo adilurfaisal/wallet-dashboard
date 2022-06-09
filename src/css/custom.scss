@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap");
+
+.dummy-image {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 9;
+  opacity: 0.35;
+}
+
+.q-layout {
+  z-index: 3;
+}
+
+aside {
+  font-family: "Inter", sans-serif;
+  width: 13.2em !important;
+  background: #f7f7f7 !important;
+}
+
+.q-page-container {
+  padding-left: 13.2em !important;
+}
+
+aside .nav-header-brand {
+  margin-left: 1em;
+  margin-top: 3.2em;
+  display: flex;
+  margin-bottom: 3.6em;
+}
+
+aside .nav-header-brand .nav-title {
+  font-family: "Raleway" !important;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 200;
+  color: #000000;
+}
+
+aside .nav-header-brand .nav-icon {
+  height: 1.81em;
+  width: 2.13em;
+  margin-right: 0.64em !important;
+}
+
+aside .nav-bar-menu {
+  height: 32.9rem;
+}
+
+aside .nav-bar-menu .nav-icon {
+  margin-right: 14px !important;
+}
+
+aside .nav-bar-menu .nav-icon,
+aside .nav-bar-menu .nav-title {
+  padding: 0px;
+  margin: 0px;
+  min-height: 0px;
+  line-height: 0px;
+}
+
+aside .nav-bar-menu .q-item {
+  padding: 0px;
+  margin: 0px;
+  min-height: 0px;
+  height: 69.5px;
+  align-items: center;
+  padding-left: 28px;
+}
+
+aside .nav-footer .q-item {
+  margin: 0px;
+  padding: 5px 26px;
+  min-height: 0px;
+  align-items: center;
+}
+
+aside .nav-footer .q-item.dark_mode_toggle {
+  padding: 10px 17px;
+}
+
+aside .nav-footer .q-item .nav-icon {
+  margin-right: 18px;
+}
+
+aside .nav-footer .q-item.dark_mode_toggle .nav-icon {
+  margin-right: 8px;
+}
+
+aside .nav-footer .q-item.version {
+  padding: 0px;
+  margin: 25px 0px 0px 0px;
+  justify-content: center;
+}
+
+.q-page-container .page-header .header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+
+.q-page-container .page-header .header-section:nth-child(1) {
+  justify-content: space-between;
+  padding: 40px 24px 0px 24px;
+}
+.q-page-container .page-header .header-section:nth-child(2) {
+  padding: 26px 24px 0px 28px;
+}
+
+.q-page-container .page-header .header-section .option-align-btn {
+  min-width: 0px;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.q-page-container .page-body {
+  padding: 0px 10px;
+}
+
+.q-page-container .page-header .breadcrumbs {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.q-page-container .wallet-card {
+  background: #ffffff;
+  margin: 0px 20px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.q-page-container .wallet-card .ethereum-chart {
+  padding: 0px 22px;
+}
+
+.q-page-container .wallet-card .toolbar {
+  margin-top: -56px;
+  margin-left: 54px;
+  padding-bottom: 14px;
+}
+
+.q-page-container .page-header .breadcrumbs-line {
+  width: 50px;
+  height: 1px;
+  border: 2px solid black;
+  margin-left: 20px;
+}
